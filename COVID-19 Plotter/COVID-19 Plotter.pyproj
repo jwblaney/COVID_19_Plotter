@@ -25,6 +25,9 @@
     <Compile Include="DataframeBuilder.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Plotter.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="TCTP_API.py">
       <SubType>Code</SubType>
     </Compile>

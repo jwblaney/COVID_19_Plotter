@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0cd4a2fe-eb75-4910-99a4-d3e9bb602f9c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>COVID_19_Plotter.py</StartupFile>
+    <StartupFile>COVID_19_Plotter.pyw</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,8 +21,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="COVID_19_Plotter.py" />
+    <Compile Include="COVID_19_Plotter.pyw" />
     <Compile Include="DataframeBuilder.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plotter.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="TCTP_API.py">

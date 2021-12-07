@@ -21,7 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="COVID_19_Plotter.pyw" />
+    <Compile Include="COVID_19_Plotter.pyw">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DataframeBuilder.py">
       <SubType>Code</SubType>
     </Compile>
